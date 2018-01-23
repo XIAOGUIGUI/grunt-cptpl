@@ -1,10 +1,10 @@
-#### view on Github：https://github.com/hanan198501/grunt-cptpl
+#### view on Github：https://github.com/XIAOGUIGUI/grunt-cptpl-underscore
 
-grunt-cptpl插件可以将您的文本模板文件编译成javascript文件。在前端开发的时候，模板文本我们一般存放在一个隐藏dom节点，再通过javascript去获取这个节点的内容，将其编译。或者在写javascript的时候，我们手动通过拼接字符串的方式储存模板文本。grunt-cptpl使前端开发也可以像后端一样，把模板文本存放在单独的文件中，使我们的开发工作从繁琐的dom操作和拼串中解放出来，提高我们的开发效率。最主要的，模板文件作为单独文件存放，可以使我们的项目代码逻辑更加清晰，更具可维护性。
+grunt-cptpl插件可以将您的文本模板文件编译成javascript文件。在前端开发的时候，模板文本我们一般存放在一个隐藏dom节点，再通过javascript去获取这个节点的内容，将其编译。或者在写javascript的时候，我们手动通过拼接字符串的方式储存模板文本。grunt-cptpl-underscore使前端开发也可以像后端一样，把模板文本存放在单独的文件中，使我们的开发工作从繁琐的dom操作和拼串中解放出来，提高我们的开发效率。最主要的，模板文件作为单独文件存放，可以使我们的项目代码逻辑更加清晰，更具可维护性。
 
-##### grunt-cptpl都做了啥？
+##### grunt-cptpl-underscore都做了啥？
 
-grunt-cptpl会读取每个模板文件的文本内容，用指定模板引擎的预编译方法将其包裹起来，生成一个新的javascript文件。这个javascript文件文件里面的内容，其实就是模板引擎的预编译方法调用，传入的参数为模板文件的文本内容。这样我们就有了一个编译好的模板函数，要渲染的时候把数据传给它就好了。
+grunt-cptpl-underscore会读取每个模板文件的文本内容，用指定模板引擎的预编译方法将其包裹起来，生成一个新的javascript文件。这个javascript文件文件里面的内容，其实就是模板引擎的预编译方法调用，传入的参数为模板文件的文本内容。这样我们就有了一个编译好的模板函数，要渲染的时候把数据传给它就好了。
 
 <!--more-->
 
@@ -14,12 +14,12 @@ grunt-cptpl会读取每个模板文件的文本内容，用指定模板引擎的
 
 如果你还没有使用过[Grunt][1], 务必阅读一下它的[入门][2]指南, 里面介绍了如何创建一个[Grunt配置文件][3]以及如何安装和使用grunt插件。一旦你熟悉这个过程，你可以使用如下命令安装grunt-cptpl。
 
-<pre lang="javascript" line="1">npm install grunt-cptpl --save-dev
+<pre lang="javascript" line="1">npm install grunt-cptpl-underscore --save-dev
 </pre>
 
 一旦插件被安装， 可以在Gruntfile里面添加如下代码来启用：
 
-<pre lang="javascript" line="1">grunt.loadNpmTasks('grunt-cptpl');
+<pre lang="javascript" line="1">grunt.loadNpmTasks('grunt-cptpl-underscore');
 </pre>
 
 ## 配置 "cptpl" task
@@ -178,7 +178,7 @@ Example：
 ;window.abc = myEngine.compile('<h1>{{title}}</h1><p>{{content}}</p>');
 </pre>
 
-#### view on Github：https://github.com/hanan198501/grunt-cptpl
+#### view on Github：https://github.com/XIAOGUIGUI/grunt-cptpl-underscore
 
  [1]: http://gruntjs.com/
  [2]: http://gruntjs.com/getting-started

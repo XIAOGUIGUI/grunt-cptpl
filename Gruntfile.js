@@ -1,6 +1,6 @@
 /*
- * grunt-cptpl
- * https://github.com/hanan198501/grunt-cptpl
+ * grunt-cptpl-underscore
+ * https://github.com/XIAOGUIGUI/grunt-cptpl-underscore
  *
  * Copyright (c) 2014 hanan
  * Licensed under the MIT license.
