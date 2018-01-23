@@ -1,24 +1,23 @@
 {
-    "name": "grunt-cptpl",
+    "name": "grunt-cptpl-underscore",
     "description": "Compiled template files into JavaScript files",
-    "version": "0.1.4",
-    "homepage": "https://github.com/hanan198501/grunt-cptpl",
+    "version": "0.1.0",
+    "homepage": "https://github.com/XIAOGUIGUI/grunt-cptpl-underscore",
     "author": {
-        "name": "hanan",
-        "email": "annn.han@gmail.com",
-        "url": "http://cssha.com"
+        "name": "gui",
+        "email": "crg0118@163.com"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/hanan198501/grunt-cptpl.git"
+        "url": "https://github.com/XIAOGUIGUI/grunt-cptpl-underscore.git"
     },
     "bugs": {
-        "url": "https://github.com/hanan198501/grunt-cptpl/issues"
+        "url": "https://github.com/XIAOGUIGUI/grunt-cptpl-underscore/issues"
     },
     "licenses": [
         {
             "type": "MIT",
-            "url": "https://github.com/hanan198501/grunt-cptpl/blob/master/LICENSE-MIT"
+            "url": "https://github.com/XIAOGUIGUI/grunt-cptpl-underscore/blob/master/LICENSE-MIT"
         }
     ],
     "engines": {
